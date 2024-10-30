@@ -1,0 +1,28 @@
+#achievement_sound{
+    display:none
+}
+
+#achievement div{
+    background:url("achievement.png") no-repeat scroll 48% 0px transparent;
+    bottom:-100px;
+    height:60px;
+    overflow:auto;
+    position:fixed;
+    width:960px;
+    z-index:30;
+    text-align:center;
+    opacity: 0;
+    margin: 0 auto
+}
+
+#achievement div span{
+    color:#FFFFFF;
+    display:block;
+    padding-top:30px;
+    font:14px/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+}
+
+#achievement{
+    width: 960px;
+    margin: auto;
+}
